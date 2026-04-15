@@ -1,0 +1,17 @@
+[project]
+name = "agent101"
+version = "0.1.0"
+description = "Build Mini Claude Code from Zero - A step-by-step Jupyter notebook tutorial"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "openai>=2.31.0",
+    "python-dotenv>=1.2.2",
+    "pyyaml>=6.0.3",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.2.0",
+    "jupyter>=1.1.1",
+]
