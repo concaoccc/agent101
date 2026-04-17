@@ -97,10 +97,11 @@ All 10 sessions live in a single notebook (`agent101.ipynb`):
 | 04 | **Subagents** | Context isolation — child agents with fresh `messages=[]` |
 | 05 | **Skill Loading** | Two-layer knowledge injection (system prompt + on-demand) |
 | 06 | **Context Compact** | Three-layer compression for infinite sessions |
-| 07 | **Task System** | File-based task graph with `blockedBy` dependencies |
-| 08 | **MCP & Plugins** | External tool integration via Model Context Protocol |
-| 09 | **Permission System** | Four-stage safety pipeline (deny → mode → allow → ask) |
-| 10 | **Memory System** | Cross-session persistence with YAML frontmatter files |
+| 07 | **Permission System** | Four-stage safety pipeline (deny → mode → allow → ask) |
+| 08 | **Memory System** | Cross-session persistence with YAML frontmatter files |
+| 09 | **System Prompt** | Assembly pipeline with 6 sections + CLAUDE.md layering |
+| 10 | **Task System** | File-based task graph with `blockedBy` dependencies |
+| 11 | **MCP & Plugins** | External tool integration via Model Context Protocol |
 
 ## Project Structure
 
